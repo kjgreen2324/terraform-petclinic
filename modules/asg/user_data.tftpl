@@ -1,0 +1,8 @@
+#!/bin/bash
+cat <<EOC >> /etc/apache2/sites-available/000-default.conf
+ProxyPreserveHost On
+ProxyPass / http://${endpoint}:8080/
+ProxyPassReverse / http://${endpoint}:8080/
+EOC
+
+systemctl restart apache2
