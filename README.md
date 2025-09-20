@@ -13,7 +13,7 @@
 ---
 
 ## 🏛️ Architecture
-![Architecture](terraform-archi.jpg)
+![Architecture](terraform-archi.png)
 
 구성 요소:
 - **VPC & Subnets**: 멀티 AZ 퍼블릭/프라이빗 서브넷  
